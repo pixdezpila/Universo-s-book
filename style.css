@@ -1,0 +1,11 @@
+:root {
+    --preto: #000000;
+    --font-size:'Poppin','sans serif';
+    --branco:#ffffff;
+}
+
+body{
+    background-color: var(--preto);
+    color: #ffffff;
+    font-size: var(--font-size);
+}
