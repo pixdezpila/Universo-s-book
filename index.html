@@ -1,35 +1,50 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="PT-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UNIVERSO'S BOOK</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="header.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UNIVERSO'S BOOK</title>
+<link rel = "stylesheet" href = "style.css">
+<link rel = "stylesheet" href = "reset.css">
+<link rel = "stylesheet" href = "header.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 
-<header class="cabecalho">
-    <div class="container">
-        <!--ADICIONAR A TAG IMPUT AQUI-->
-        <input type="checkbox" id="menu" placeholder="categorias">
+<header class = "cabecalho">
 
-        <!--ADICIONAR A TAG LABEL AQUI-->
-        <label for="menu">
-            <span class="container_botao"></span>
-        </label>
+<div class = "container">
+<!--ADICIONAR A TAG INPUT AQUI-->
+<input type = "checkbox" id = "menu" placeholder = "container__botao">
 
-        <a ref="#"> <img src="IMG/Logo.svg" alt="logotipo do aplicativo"> </a>
+<!--ADICIONAR A TAG LABEL AQUI-->
+<label for = "menu">
+<span class = "cabecalho__menu-hamburguer"></span>
+</label>
 
-    </div>
+<!--ADICIONAR AS TAGS DE LISTA AQUI-->
+<ul class = "lista-menu">
+<li class = "lista-menu__titulo">CATEGORIAS</li>
+<a href "#" class = "lista-menu__link"> <li class = "lista-menu__item">Programação</li> </a>
+<a href "#" class = "lista-menu__link"> <li class = "lista-menu__item">Romance</li> </a>
+<a href "#" class = "lista-menu__link"> <li class = "lista-menu__item">Ficção Científica</li> </a>
+<a href "#" class = "lista-menu__link"> <li class = "lista-menu__item">Diversos</li> </a>
+</ul>
+<a href = "#"> <img src = "IMG/Logo.svg" alt = "logotipo do aplicativo"> </a>
 
-    <div class="container">
-        <a ref="#"> <img src="IMG/Favoritos.svg" alt="favoritos"></a>
+</div>
 
-    </div>
+<div class ="container">
+<a href = "#"> <img src = "IMG/Favoritos.svg" alt = "favoritos" class = "container__imagem"> </a>
+<a href = "#"> <img src = "IMG/Compras.svg" alt = "sacola de compras"> </a>
+<a href = "#"> <img src = "IMG/Usuário.svg" alt = "meu perfil"> </a>
+</div>
+
 </header>
+
 <body>
-    <h1>Universo's Book</h1>
-    <p>Aqui você encontra o livro que você precisa!</p>
+<h1>Universo's Book</h1>
+<p>Aqui você encontra o livro que você precisa!</p>
 </body>
 </html>
